@@ -1,4 +1,4 @@
-# HLS source code
+# HLS source code (Verified on Xilinx ZCU102 board)
 
 ### FPGA working frequency is set as 100MHz.
 
@@ -44,3 +44,11 @@ Double buffer deisgn for "load IFM, WEIGHT and BIAS + Fire" and "store"
 ## BRAM instantion
 
 1. WEIGHT, IFM, OFM and BIAS are double buffered
+
+2. WEIGHT dimension 1 and 2 are completely partitioned to support parallel computation.
+
+3. IFM dimension 1 is completely partitioned to support parallel computation
+
+## variables
+
+1. Variables such as row, col, N, custom_k... can be customized tuned according to different FPGA.
