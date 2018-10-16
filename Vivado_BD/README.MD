@@ -8,3 +8,18 @@
 3. In DMA, M_AXIS_MM2S is for data from PS to PL, S_AXIS_S2MM is for data from PL to PS.
 
 4. AXI_STREAM data slit is done in IP generated from HLS.
+
+5. MAX burst size is set to 256 to support max linear transfer.
+
+## DMA AXI_STREAM data
+1. DMA data transfer is parallel data transfer.
+
+2. In ZCU 102, 4 float data can be transmitted in parallel from ZYNQ AXI HP(ZYNQ limitation).
+
+3. Data to/from DMA has to be split and combined to form parallel transmission.
+
+4. A DMA can enable bidirection function data stream to minimize # ofof DMA. 
+
+
+
+
