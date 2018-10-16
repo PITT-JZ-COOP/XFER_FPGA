@@ -1,12 +1,14 @@
 # HLS source code
 
-FPGA working frequency is set as 100MHz.
+### FPGA working frequency is set as 100MHz.
 
-32-bit float-point data is adopted in this project.
+### 32-bit float-point data is adopted in this project.
 
-All data structures are created in "source.h".
+### All data structures are created in "source.h".
 
-DMA is adopted in this project to load/off-load IFM, WEIGHT, BIAS, and OFM.
+### DMA is adopted in this project to load/off-load IFM, WEIGHT, BIAS, and OFM.
+
+### Double buffer design to redece execution stall.
 
 ## LOAD_WEIGHT_DMA
 1. 64 bit stram data (2 float point data) to WEIGHT(float point) in PL.
@@ -39,3 +41,6 @@ Double buffer deisgn for "load IFM, WEIGHT and BIAS" and "Fire"
 ## top
 Double buffer deisgn for "load IFM, WEIGHT and BIAS + Fire" and "store"
 
+## BRAM instantion
+
+1. WEIGHT, IFM, OFM and BIAS are double buffered
