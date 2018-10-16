@@ -2,4 +2,4 @@
 
 This project is based on Xilinx HLS and Vivado.
 
-An entire design flow of AlexNet CONVOLUTION acceleration on FPGA is included.
+An entire design flow of AlexNet CONVOLUTION acceleration on FPGA is presented in this project.
