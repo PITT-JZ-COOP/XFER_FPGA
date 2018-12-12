@@ -2,7 +2,7 @@
 
 ### The method to explore the NN design space on FPGA is referring to "Optimizing FPGA-based Accelerator Design for Deep Convolutional Neural Networks"
 
-This script considers design in the following circustance 1) off-chip <-> on-chip communication via DMA 2) the given FPGA bandwidth between DRAM and on-chip memory (targeted on Xilinx ZYNQ system ) 3) the given DSP and BRAM resource 4) the Xilinx Aurora 64/66B chip-chip tranmission protocol. 
+Base on the reference methodology, this script considers design in the following circustance 1) off-chip&on-chip communicates via DMA 2) FPGA bandwidth between DRAM and on-chip memory is given (targeted on Xilinx ZYNQ system ) 3) DSP and BRAM resource is goven4) the Xilinx Aurora 64/66B chip-chip tranmission protocol is adopted. 
 
 The script can generate parameters for both single FPGA design and XFER design. The optimal target can be switched between latency and throughput.
 
