@@ -1,6 +1,6 @@
 # This is a script to auto generate layer tiling parameters
 
-This script 
+### The method to explore the NN design space on FPGA is referring to "Optimizing FPGA-based Accelerator Design for Deep Convolutional Neural Networks"
 
 This script considers design in the following circustance 1) off-chip <-> on-chip communication via DMA 2) the given FPGA bandwidth between DRAM and on-chip memory (targeted on Xilinx ZYNQ system ) 3) the given DSP and BRAM resource 4) the Xilinx Aurora 64/66B chip-chip tranmission protocol. 
 
