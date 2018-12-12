@@ -16,5 +16,14 @@ The implementations are based on Xilinx HLS and Vivado.
 
 In the current repository, we open the base-line design (the single-FPGA implementation on ZCU102).
 
+### Instructions:
+
+#### DSE (Design Space Exploration)
+
+#### HLS
+
+#### SDK
+
+#### Vivado
 
 Contact: jiang.wwen@pitt.edu, xinyizhang@pitt.edu
