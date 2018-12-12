@@ -18,7 +18,7 @@
 
 3. Data to/from DMA has to be split and combined to form parallel transmission.
 
-4. A DMA can enable bidirection function data stream to minimize # ofof DMA. 
+4. A DMA can enable bidirection function data stream to minimize # of DMA. 
 
 
 
