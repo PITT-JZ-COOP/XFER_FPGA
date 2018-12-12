@@ -4,7 +4,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;title={XFER: A Novel Design to Achieve Super-Linear Performance on Multiple FPGAs for Real-Time AI (Abstact Only)},  
 &nbsp;&nbsp;&nbsp;&nbsp;author={Weiwen Jiang, Xinyi Zhang, and others},  
 &nbsp;&nbsp;&nbsp;&nbsp;booktitle={Proceedings of the 2019 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays},  
-&nbsp;&nbsp;&nbsp;&nbsp;pages={xxx--xxx},  
 &nbsp;&nbsp;&nbsp;&nbsp;year={2019},  
 &nbsp;&nbsp;&nbsp;&nbsp;organization={ACM}  
 }
