@@ -114,7 +114,7 @@ if __name__ == "__main__":
                 2) The frequency is in MHz
                 3) Bitwidth can switch between 16 or 32
                 4) if BOARD=1, it denotes single FPGA design; if BOARD=2, it denotes XFERdesign
-                5) OPT_MODE=1 denotes throughput optimization, OPT_MODE=1 denotes latency optimization
+                5) OPT_MODE=1 denotes throughput optimization, OPT_MODE=0 denotes latency optimization
     '''
     DSP_BOUND = 2520
     BRAM_BOUND = 1824
@@ -122,7 +122,7 @@ if __name__ == "__main__":
     FREQ = 100
     BITWIDTH = 32
     BOARD = 1
-    OPT_MODE = 1
+    OPT_MODE = 0
 
     B=1
     Pb=1
@@ -147,7 +147,7 @@ if __name__ == "__main__":
     LAYER_TH = []
 
 
-    for i in range(0,1):
+    for i in range(4,5):
         print(i)
         [B,M,N,R,C,K,S,P] = layers[i].get_para()
         MIN_LAT = sys.maxsize
