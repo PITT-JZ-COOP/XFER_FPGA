@@ -25,8 +25,14 @@ This section shows how to get the optimal parameters of each layer on targeted F
 This section shows the work which is proposed by researcher Cheng Zhang. The work can be found in [Optimizing FPGA-based Accelerator Design for Deep
 Convolutional Neural Networks](http://delivery.acm.org/10.1145/2690000/2689060/p161-zhang.pdf?ip=130.49.132.11&id=2689060&acc=ACTIVE%20SERVICE&key=AA86BE8B6928DDC7%2E3F18A282B75518AA%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1544587726_d5343de259dddad5ec8eb08278c737e0)
 
+The interface between DRAM and FPGA is further optimized in our work.
+
 #### SDK
 
+This section shows how to schedule the running status of the FPGA.
+
 #### Vivado
+
+The schematic of the design in Vivado is presented in this section.
 
 Contact: jiang.wwen@pitt.edu, xinyizhang@pitt.edu
