@@ -9,7 +9,7 @@
   organization={ACM}  
 }
 ```
-This work has beed accepted by Proceeding of  International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS 2019).
+### This work has beed accepted by Proceeding of  International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS 2019).
 
 We implement Convolutional Neural Networks (CNNs) on ZCU102 FPGA boards, connected by fiber cables (SFP+) via Aurora IP cores.
 
