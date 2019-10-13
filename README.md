@@ -1,15 +1,18 @@
-### XFER: A Novel Design to Achieve Super-Linear Performance on Multiple FPGAs for Real-Time AI (Abstact Only)
+### Achieving Super-Linear Speedup across Multi-FPGA for Real-Time DNN Inference
 
 ```
-@inproceedings{jiang2019XFER,  
-  title={XFER: A Novel Design to Achieve Super-Linear Performance on Multiple FPGAs for Real-Time AI (Abstact Only)},  
-  author={Weiwen Jiang, Xinyi Zhang, and others},  
-  booktitle={Proceedings of the 2019 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays},  
-  year={2019},  
-  organization={ACM}  
+@article{jiang2019achieving,
+  title={Achieving Super-Linear Speedup across Multi-FPGA for Real-Time DNN Inference},
+  author={Jiang, Weiwen and Sha, Edwin H-M and Zhang, Xinyi and Yang, Lei and Zhuge, Qingfeng and Shi, Yiyu and Hu, Jingtong},
+  journal={ACM Transactions on Embedded Computing Systems (TECS)},
+  volume={18},
+  number={5s},
+  pages={67},
+  year={2019},
+  publisher={ACM}
 }
 ```
-### This work has beed accepted by Proceeding of  International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS 2019).
+### This work has beed accepted by Proceeding of International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS 2019).
 
 We implement Convolutional Neural Networks (CNNs) on ZCU102 FPGA boards, connected by fiber cables (SFP+) via Aurora IP cores.
 
