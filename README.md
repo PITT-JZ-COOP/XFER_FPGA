@@ -15,27 +15,22 @@ We implement Convolutional Neural Networks (CNNs) on ZCU102 FPGA boards, connect
 
 The implementations are based on Xilinx HLS and Vivado.
 
-In the current repository, we open the base-line design (the single-FPGA implementation on ZCU102).
-
-The double-FPGA version will be released soon.
-
 ### Instructions:
 
 #### DSE (Design Space Exploration)
 This section shows how to get the optimal parameters of each layer on targeted FPGA. The parameters are obtained under constraints such as off-chip/on-chip memory bandwidth, DSP resource and BRAM resource. The optimization goal can be set as latency or throughput.
 
 #### HLS
-This section shows the work which is proposed by researcher Cheng Zhang. The work can be found in [Optimizing FPGA-based Accelerator Design for Deep
-Convolutional Neural Networks](http://delivery.acm.org/10.1145/2690000/2689060/p161-zhang.pdf?ip=130.49.132.11&id=2689060&acc=ACTIVE%20SERVICE&key=AA86BE8B6928DDC7%2E3F18A282B75518AA%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1544587726_d5343de259dddad5ec8eb08278c737e0)
+This section shows the work which contains the IP core of convilution accelerator, in which, it includes the interface to communicate with AXI DMA and interface to Xilinx Aurora 64/66B high speed seris transmission IP code
 
 The interface between DRAM and FPGA is further optimized in our work.
 
 #### SDK
 
-This section shows how to schedule the running status of the FPGA.
+This section shows how to schedule the running status of 1) two FPGA handshaking 2) single FPGA running schedule.
 
 #### Vivado
 
-The schematic of the design in Vivado is presented in this section.
+The schematic of the design in Vivado is presented in this section. Please follow the schematic to build you own Vivado project.
 
 Contact: jiang.wwen@pitt.edu, xinyizhang@pitt.edu
