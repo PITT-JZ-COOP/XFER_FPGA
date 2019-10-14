@@ -21,7 +21,7 @@ The implementations are based on Xilinx HLS and Vivado.
 ### Instructions:
 
 #### DSE (Design Space Exploration)
-This section shows how to get the optimal parameters of each layer on targeted FPGA. The parameters are obtained under constraints such as off-chip/on-chip memory bandwidth, DSP resource and BRAM resource. The optimization goal can be set as latency or throughput.
+This section shows the estimated latency given network layer parameters.
 
 #### HLS
 This section shows the work which contains the IP core of convilution accelerator, in which, it includes the interface to communicate with AXI DMA and interface to Xilinx Aurora 64/66B high speed seris transmission IP code
